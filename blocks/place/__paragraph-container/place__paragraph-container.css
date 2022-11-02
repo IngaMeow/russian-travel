@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 568px) {
   .place__paragraph-container {
-  max-width: 288px;
-  margin: 0 auto;
+    max-width: 288px;
+    margin: 0 auto;
   }
 }
