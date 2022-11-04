@@ -3,6 +3,11 @@
   grid-template-columns: repeat(2,auto);
   grid-template-rows: repeat(2,auto);
   max-width: 984px;
+  padding-bottom: 80px;
+}
+
+.place:last-child {
+  padding: 0;
 }
 
 @media screen and (max-width: 1124px) {
@@ -14,6 +19,7 @@
 @media screen and (max-width: 984px) {
   .place {
     max-width: 720px;
+    padding-bottom: 73px;
   }
 }
 
@@ -22,6 +28,7 @@
     max-width: 320px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    padding-bottom: 50px;
   }
 }
   

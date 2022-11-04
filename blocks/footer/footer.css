@@ -8,20 +8,21 @@
 @media screen and (max-width: 1124px) {
   .footer {
     max-width: 928px;
-    padding: 92px 48px 48px;
   }
 }
   
 @media screen and (max-width: 984px) {
   .footer {
     max-width: 720px;
-    padding: 0 24px;
+    padding: 88px 24px 24px;
   }
 }
   
 @media screen and (max-width: 568px) {
   .footer {
-    padding-left: 0 0 24px 16px;
+    padding-top: 64px;
+    padding-left: 16px;
+    padding-bottom: 24px;
     flex-direction: column;
     display: block;
   }
